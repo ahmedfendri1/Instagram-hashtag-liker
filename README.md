@@ -18,3 +18,6 @@ Steps:
 6) Install the required libraries needed for the script. 
    To install the libraries open the Command Prompt, navigate to the folder where you downloaded the script and write the following command: 
    pip install -r requirement.txt 
+
+
+That is all, you can now run the script like_hastags.py and follow the instructions ;) 
