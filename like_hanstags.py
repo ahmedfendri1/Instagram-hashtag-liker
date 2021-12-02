@@ -89,7 +89,7 @@ time.sleep(2)
 
 lve = 0 
 while lve < 1:
-    hastag = input("Enter hastag:" , 'green')
+    hastag = input("Enter hastag:")
     time.sleep(1)
     driver.get('https://www.instagram.com/explore/tags/' + hastag) 
     #driver.get("https://www.instagram.com/explore/tags/likeforlikes/")
@@ -100,7 +100,7 @@ while lve < 1:
     driver.find_element_by_xpath('//*[@id="react-root"]/section/main/article/div[2]/div/div[1]/div[1]/a/div').click()
     time.sleep(5) 
     print('hint: limited number of likes is recommended (less than 300)')
-    n_likes = int(input("Enter number of likes:"))
+    n_likes = int(input("Enter number of likes:")
     time.sleep(1)                                             
     rn = random.randint(5,15)
     #n_likes = random.randint(100,300)
