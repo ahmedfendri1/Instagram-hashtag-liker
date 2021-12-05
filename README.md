@@ -1,4 +1,4 @@
-# Instagram-hashtag-likes
+# Instagram-liker
 This easy to use script helps you to get More Real Followers and Engagement. The bot will make your account very active by liking others post base on Hastags of your choose.
 
 Requirements:
@@ -16,8 +16,10 @@ Steps:
    Be sure that you downloaded the correct version which matches the Chrome browser version. 
    Copy the downloaded  chromdriver file and past it in C:\ 
 6) Install the required libraries needed for the script. 
-   To install the libraries open the Command Prompt, navigate to the folder where you downloaded the script and write the following command: 
-   pip install -r requirements.txt 
-
-
+   To install the libraries: 
+   - open the Command Prompt (cmd) 
+   - navigate to the folder where you downloaded the script (for example if you donwloaded it in C:\Users\arnol\OneDrive\Documents\GitHub\Instagram-hashtag-liker) then you should      write in the Command Prompt: cd C:\Users\arnol\OneDrive\Documents\GitHub\Instagram-hashtag-liker 
+   - Write the following command: pip install -r requirements.txt 
+   
 That is all, you can now run the script like_hastags.py and follow the instructions ;) 
+The script will ask you to enter your Username and password then the hashtag and number of likes. 
